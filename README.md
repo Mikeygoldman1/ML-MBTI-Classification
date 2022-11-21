@@ -1,5 +1,5 @@
 # Myers-Briggs Type Indicator (MBTI) Machine Learning Classification From Social Media 
-The Random Forest, Support Vector Machine, and a CNN and LSTM hyrbrid model's performances in predicting an indivduals MBTI personality type from their  textual social media posts are investigated. Metrics such as F1-score and Balanced accuracy are evaluated.
+The Random Forest, Support Vector Machine, and a CNN and LSTM hyrbrid model's performances in predicting an indivdual's MBTI personality type from their  textual social media posts are investigated. Metrics such as F1-score and Balanced accuracy are evaluated.
 ## Running Instructions:
 1. Download the Kaggle (MBTI) Myers-Briggs Personality Type Dataset from: https://www.kaggle.com/datasets/datasnaek/mbti-type.
 2. Upload the dataset to Google Drive.
