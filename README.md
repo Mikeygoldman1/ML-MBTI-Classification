@@ -1,4 +1,4 @@
-# Myers-Briggs Type Indicator (MBTI) Machine Learning Classification from Social Media 
+# Myers-Briggs Type Indicator (MBTI) Machine Learning Classification From Social Media 
 The Random Forest, Support Vector Machine, and a CNN and LSTM hyrbrid model's performances in predicting an indivduals MBTI personality type from their  textual social media posts are investigated. Metrics such as F1-score and Balanced accuracy are are evaluated.
 ## Running Instructions:
 1. Download the Kaggle (MBTI) Myers-Briggs Personality Type Dataset from: https://www.kaggle.com/datasets/datasnaek/mbti-type.
@@ -10,13 +10,13 @@ The Random Forest, Support Vector Machine, and a CNN and LSTM hyrbrid model's pe
 2. Random_Forest.ipynb which contains the implementation of the Random Forest Classifier algorithm.
 3. SVM_FINAL.ipynb which contains the implementation of the Support Vector Machine algorithm.
 4. CNN_LSTM.ipynb which contains the implementation of the CNN and LSTM hybrid algorithm.
-## Instructions to Run the Code for Different Test Conditions:
-### MBTI Type Mentions Removed or Present Within All Files:
+## Instructions To Run The Code For Different Test Conditions:
+### MBTI Type Mentions Removed Or Present Within All Files:
 Within the ‘preprocessing’ section of each IPYNB file there is a comment indicating whether or not MBTI type mentions should be removed from posts. Below the comment is the code for this specification. Commenting this line will keep MBTI type mentions present and uncommenting it will remove them.
-### Sampling the Imbalanced Data: 
+### Sampling The Imbalanced Data: 
 Within the ‘sampling to deal with imbalanced data’ section in each IPYNB file, there are comments indicating the type of sampling technique and whether to perform sampling on the train set only or on the test set as well. The succeeding lines of code can be uncommented depending on the desired method.
 
-## Hyperparameter Tuning Within the Random_Forest.ipynb and SVM_FINAL.ipynb:
+## Hyperparameter Tuning Within The Random_Forest.ipynb And SVM_FINAL.ipynb:
 - GridSearchCV can be performed by uncommenting the code within the 'Hyperparamter Tuning using Grid Search and Cross Validation' section of each IPYNB file. This is time-consuming and thus commented out once the optimal parameters are found. 
 - The optimal parameters for each MBTI dichotomy are specified for each algorithm in the IPYNB files. 
 
