@@ -4,7 +4,7 @@ The Random Forest, Support Vector Machine, and a CNN and LSTM hyrbrid model's pe
 1. Download the Kaggle (MBTI) Myers-Briggs Personality Type Dataset from: https://www.kaggle.com/datasets/datasnaek/mbti-type 
 2. Upload the dataset to Google Drive 
 3. For each IPYNB file click the 'Open in Colab' option appearing at the start of each notebook
-4. Once redirected to Google Colab, click the 'Runtime' option and change the runtime to a GPU to improve running the times of each notebook.
+4. Once redirected to Google Colab, click the 'Runtime' option and change the runtime to a GPU. This improves the running the times of each notebook.
 ## The following files are contained within this project:
 1. Data_visualization.ipynb which contains graphical information of the dataset. 
 2. Random_Forest.ipynb which contains the implementation of the Random Forest Classifier algorithm.
@@ -21,5 +21,5 @@ Within the ‘sampling to deal with imbalanced data’ section in each IPYNB fil
 - The optimal parameters for each MBTI dichotomy are specified for each algorithm in the IPYNB files. 
 
 ## Collaboration 
-This investigation was completed by Jamie Benater and Michael Goldman 
+This investigation was completed by Jamie Benater (https://github.com/jamiebenater) and Michael Goldman (https://github.com/Mikeygoldman1)
 
