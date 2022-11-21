@@ -1,7 +1,8 @@
 # Myers-Briggs Type Indicator (MBTI) Machine Learning Classification from Social Media 
 The Random Forest, Support Vector Machine, and a CNN and LSTM hyrbrid model's performances in predicting an indivduals MBTI personality type from their  textual social media posts are investigated. Metrics such as F1-score and Balanced accuracy are are evaluated.
 ## Installations and Running Instructions
-
+- Use pip install tensorflow to install the latest version of TensorFlow. This is required to building the CNN and LSTM hyrbid model. 
+- All the IPYNB files can be run 
 # The following files are contained within this project:
 Data_visualization.ipynb which contains information about and graphical representations of the dataset. 
 Random_Forest.ipynb which contains the implementation of the Random Forest Classifier algorithm.
